@@ -17,18 +17,8 @@ h1{
 }
 
 .container .squares:nth-child(-n+4){
-    background-image: url("../images/icons/icons.png");
+    background-image: url("../images/icons/smileyface2.png");
     color: #fff;
-    float: left;
-    width: 100px;
-    height: 100px;
-    margin: 5px;
-    border: 1px solid black;
-    border-radius: 25%;
-    cursor: pointer;
-}
-
-.container .squares:nth-child(-n+4){
     float: left;
     width: 100px;
     height: 100px;
@@ -65,7 +55,7 @@ h1{
 }
 
 .container .squares:nth-child(-n+4):hover{
-    background-image: url("../images/icons/icons2.png");
+    background-image: url("../images/icons/smileyface1.png");
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
@@ -74,7 +64,7 @@ h1{
 }
 
 .squares:nth-child(1):hover {
-    background: #12b4ff;
+    background: #13b4ff;
 }
 
 .squares:nth-child(2):hover {
@@ -92,7 +82,7 @@ h1{
 @keyframes race {
     0%, 100% {
         transform: translateY(0px);
-        background-image: url("..images/icons/icons2.png");
+        background-image: url("../images/icons/smileyface1.png");
     }
     50% {
         transform: translateY(300px);
